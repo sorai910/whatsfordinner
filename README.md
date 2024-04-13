@@ -121,7 +121,7 @@ Recipe
 ### Networking
 
 - Inventory Screen
-* (Read/GET) Query all items where user is owner
+** (Read/GET) Query all items where user is owner
 ```
 let query = PFQuery(className:"Item")
 query.whereKey("user", equalTo: PFUser.current()!)
