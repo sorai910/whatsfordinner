@@ -122,7 +122,7 @@ Recipe
 
 - Inventory Screen
 * (Read/GET) Query all items where user is owner
-'''
+```
 let query = PFQuery(className:"Item")
 query.whereKey("user", equalTo: PFUser.current()!)
 query.findObjectsInBackground {
@@ -133,7 +133,7 @@ query.findObjectsInBackground {
     // items contains an array of items owned by the current user
   }
 }
-'''
+```
 * (Create/POST) Add a new item
 '''
 let newItem = PFObject(className:"Item")
