@@ -1,4 +1,4 @@
-# whatsfordinner
+# What's For Dinner?
 <img src="WhatsForDinnerLogo.jpg" width=600>
 
 ## Table of Contents
