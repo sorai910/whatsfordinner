@@ -135,7 +135,7 @@ query.findObjectsInBackground {
 }
 ```
 * (Create/POST) Add a new item
-'''
+```
 let newItem = PFObject(className:"Item")
 newItem["name"] = "Milk"
 newItem["expiryDate"] = NSDate()
@@ -150,9 +150,9 @@ newItem.saveInBackground {
     print("Error: \(error?.localizedDescription)")
   }
 }
-'''
+```
 * (Update/PUT) Update an item's quantity or expiry date
-'''
+```
 let query = PFQuery(className:"Item")
 query.getObjectInBackground(withId: "objectIdOfItem") {
   (item: PFObject?, error: Error?) in
@@ -163,10 +163,10 @@ query.getObjectInBackground(withId: "objectIdOfItem") {
     print("Error: \(error?.localizedDescription)")
   }
 }
-'''
+```
 - Recipes Screen
 * (Read/GET) Query recipes based on selected ingredients
-'''
+```
 let query = PFQuery(className:"Recipe")
 query.whereKey("ingredients", containsAllObjectsIn: ["Milk", "Eggs"])
 query.findObjectsInBackground {
@@ -177,6 +177,6 @@ query.findObjectsInBackground {
     print("Error: \(error?.localizedDescription)")
   }
 }
- '''
+ ```
 
 - Will use a recipe api as well but still trying to search for the right one
