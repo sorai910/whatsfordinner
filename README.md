@@ -91,19 +91,10 @@ list second screen here]
 
 ### Models
 
-User
-| Property | Type   | Description                       |
-|----------|--------|-----------------------------------|
-| objectId | String | unique id for the user (default)  |
-| username | String | user's username                   |
-| password | String | user's password                   |
-| email    | String | user's email address              |
-
 Item
 | Property   | Type   | Description                         |
 |------------|--------|-------------------------------------|
 | objectId   | String | unique id for the item (default)    |
-| user       | String | reference to user who owns the item |
 | name       | String | name of the item                    |
 | expiryDate | Date   | expiry date of the item             |
 | quantity   | Int    | amount of the item available        |
