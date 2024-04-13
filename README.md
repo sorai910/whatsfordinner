@@ -113,7 +113,7 @@ Recipe
 |--------------|----------|------------------------------------|
 | objectId     | String   | unique id for the recipe (default) |
 | title        | String   | title of the recipe                |
-| ingredients  | [String] | list of ingredients required       |
+| ingredients  | [Item] | list of ingredients required       |
 | instructions | String   | cooking instructions               |
 | sourceUrl    | String   | link to the recipe source          |
 
