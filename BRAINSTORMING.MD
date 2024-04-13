@@ -14,6 +14,6 @@
 - Cons: Dependence on a robust user base to function effectively, challenges in matching skills effectively.
 3. Whats For Dinner?:
 - Pros: Practical daily use, promotes food waste reduction, potential partnerships with grocery retailers.
-- Cons: Requires initial setup effort from users, integration challenges with various grocery platforms.
+- Cons: Requires initial setup effort from users
 # Final App Idea Chosen:
 Whats For Dinner? stands out as the final choice due to its practical application and potential for broad impact on daily life. This app not only aids in reducing food waste but also simplifies meal planning and grocery shopping, appealing to a wide demographic of users who seek to optimize their kitchen management and save money.
