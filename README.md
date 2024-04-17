@@ -63,7 +63,7 @@ list second screen here]
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [Launch Screen(optional)]
+- [ ] [Launch Screen]
 * Navigates to Inventory Screen after the instruction.
 * ...
 - [ ] [Inventory Screen]
